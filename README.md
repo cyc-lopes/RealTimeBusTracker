@@ -1,4 +1,4 @@
-#Real Time Bus Tracker
+# Real Time Bus Tracker
 
 This project tracks the bus location in Boston, MA during each stop on the bus route between MIT and Harvard University. 
 
