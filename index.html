@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Map Animation</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+
+    <style>
+      .centered-button {
+        position: fixed;
+        top: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+      <button
+        class="centered-button"
+        style="
+          font-size: 2em;
+          cursor: pointer;
+          background-color: blue;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 10px;
+        "
+        onclick="move()"
+      >
+        Show bus stops between MIT and Harvard University
+      </button>
+    </div>
+    <script src="./mapanimation.js"></script>
+  </body>
+</html>
