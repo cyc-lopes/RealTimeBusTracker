@@ -7,6 +7,9 @@ In order to run this program on your machine, you will need to click the green "
 Future improvements that would be helpful would be the ability to input two locations in separate text boxes, and have the map generate all bus stops that exist on the route between the two locations. The current version of this program is very basic, and does not provide much functionality to someone who does need to travel between MIT and Harvard University.
 
 
+<br>
+<br>
+<br>
 
 Copyright 2023 Connor Lopes
 
